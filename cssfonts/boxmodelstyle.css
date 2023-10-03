@@ -1,0 +1,25 @@
+*{
+    background-color: #F0F7D4;
+}
+
+.a{
+    background-color: #B2D732;
+    margin: 40px;
+    width: 200px;
+    height: 100px;
+}
+
+.b{
+    background-color: #66B032;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.c{
+    background-color: #347B98;
+    margin: 30px;
+    padding: 30px;
+    border: 7px solid #2ab;
+}
