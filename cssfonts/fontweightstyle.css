@@ -19,3 +19,12 @@
     background-image: linear-gradient(lightcoral,coral);
     
 }
+.li{
+    font-weight: lighter;
+}
+.bo{
+    font-weight: bolder;
+}
+.bol{
+    font-weight: bold;
+}
