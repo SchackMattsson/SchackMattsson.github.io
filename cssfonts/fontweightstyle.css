@@ -1,4 +1,4 @@
-*{
+body{
     background-color: lightsalmon;
 }
 .a{
@@ -17,6 +17,7 @@
     background-color: lightcoral;
     box-shadow: 5px 5px black;
     background-image: linear-gradient(lightcoral,coral);
+    width: 350px;
     
 }
 .li{
