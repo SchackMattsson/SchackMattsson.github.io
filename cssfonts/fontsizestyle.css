@@ -1,0 +1,22 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.a{
+    background-color: lightblue;
+    box-shadow: 5px 5px black;
+    background-image: linear-gradient(lightblue,cornflowerblue);
+    width: 300px;
+}
+.small{
+    font-size: 0.5em;
+}
+.normal{
+    font-size: 1em;
+}
+.large{
+    font-size: 1.5em;
+}
+.larger{
+    font-size: 2em;
+}
