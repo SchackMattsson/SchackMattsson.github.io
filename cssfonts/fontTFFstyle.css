@@ -1,0 +1,21 @@
+@font-face {
+    font-family: myRoboto;
+    src: url(Roboto-Regular.ttf);
+    font-family: myMickey;
+    src: url(Mickeys\ Merry\ Christmas.ttf);
+}
+body{
+    background-color: lightgreen;
+}
+.a{
+    font-family: myRoboto;
+}
+.b{
+    font-family: myMickey;
+}
+.a,.b{
+    background-color: lightgreen;
+    box-shadow: 5px 5px black;
+    background-image: linear-gradient(lightgreen,lighter);
+    width: 300px;
+}
