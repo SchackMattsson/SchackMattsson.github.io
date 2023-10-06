@@ -13,7 +13,7 @@ body{
     background-color: #EBF7E3;
 }
 
-div{
+.a,.b{
     background-color: #9BD770;
     background-image: linear-gradient(#EBF7E3,#9BD770);
     box-shadow: 5px 5px black;
