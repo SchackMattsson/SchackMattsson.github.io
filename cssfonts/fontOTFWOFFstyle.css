@@ -1,0 +1,21 @@
+@font-face {
+    font-family: myMayestica;
+    src: url(Mayestica.otf);
+    font-family: Myristretto;
+    src: url(ristretto.woff);
+}
+body{
+    background-color: greenyellow;
+}
+.a{
+    font-family: myMayestica;
+}
+.b{
+    font-family: myristretto;
+}
+.a,.b{
+    background-color: greenyellow;
+    background-image: linear-gradient(greenyellow,lightgreen);
+    width: 300px;
+    box-shadow: 5px 5px black;
+}
