@@ -16,6 +16,6 @@ body{
 .a,.b{
     background-color: lightgreen;
     box-shadow: 5px 5px black;
-    background-image: linear-gradient(lightgreen,lighter);
+    background-image: linear-gradient(lightgreen,green);
     width: 300px;
 }
