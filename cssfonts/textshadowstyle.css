@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100&family=ZCOOL+QingKe+HuangYou&display=swap');
+body{
+    background-color: lightskyblue;
+}
+.a{
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+    text-shadow: 1px 1px 2px black,0 0 20px blue,0 0 7px darkblue;
+}
+.b{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 4px 4px 4px #666;
+}
+.c{
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    color: coral;
+    text-shadow: 0 0 10px #0f0;
+}
+.a,.b,.c{
+    background-color: lightskyblue;
+    box-shadow: 5px 5px black;
+    background-image: linear-gradient(lightskyblue,lighter);
+    width: 300px;
+}
