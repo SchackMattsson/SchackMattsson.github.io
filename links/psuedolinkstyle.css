@@ -1,0 +1,23 @@
+a{
+    outline: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:link{
+    color: yellowgreen;
+}¨
+a:focus{
+    border-bottom: 1px solid darkblue;
+    background-color: lightblue;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    box-shadow: 5px 5px 5px #888;
+    background-color: lightgreen;
+}
+a:active{
+    background-color: #fea;
+    color: #0f3;
+}
