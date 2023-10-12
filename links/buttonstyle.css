@@ -1,0 +1,27 @@
+div{
+    border: 5px solid white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    text-decoration: none;
+    margin: 10px;
+    background-color: grey;
+    color: white;
+    padding: top;
+}
+div:hover{
+    border: 4px dotted darkcyan;
+}
+.gul{
+    border-left: yellow;
+}
+.rod{
+    border-left: red;
+}
+.gron{
+    border-left: green;
+}
+bla{
+    border-left: blue;
+}
