@@ -10,13 +10,14 @@ div{
     outline: none;
     text-decoration: none;
     margin: 10px;
+    vertical-align: center;
     color: white;
     background-color: green;
 }
-a:hover{
+div:hover{
     border: 4px dotted lightskyblue;
     
 }
-a:focus{
+div:focus{
     background-color: lightblue;
 }
