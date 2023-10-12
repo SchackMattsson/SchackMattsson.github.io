@@ -1,15 +1,12 @@
 h2{
     color: red;
 }
-
-
-
-
-
-
-
-
-
+.a{
+    border-radius: 1px;
+}
 a:hover{
     box-shadow: 5px 5px 5px #888;
+}
+a:focus{
+
 }
