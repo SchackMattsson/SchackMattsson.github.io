@@ -14,11 +14,6 @@ button{
     border-radius: 8px;
     margin: 8px;
 }
-
-div{  
-	width: 100px;
-    height: 500px;
-}
 div:hover{
     border: 4px dotted lightslategray;
 }
