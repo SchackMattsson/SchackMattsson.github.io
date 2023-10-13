@@ -1,0 +1,9 @@
+body{
+    background-color: #E1B96F;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    float: left;
+    width: 100px;
+}
+button:
