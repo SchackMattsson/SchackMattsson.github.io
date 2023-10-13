@@ -1,5 +1,5 @@
 body{
-    background-color: lightgreen;
+    background-color: lime;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }
@@ -14,11 +14,12 @@ button{
     border-radius: 8px;
     margin: 8px;
 }
-div:hover{
+button:hover{
     border: 4px dotted lightslategray;
+    background-color: darkslategrey;
 }
 .gul{
-    border-left: ridge style yellow 8px ridge;
+    border-left: yellow 8px ridge;
 }
 .rod{
     border-left: red 8px ridge;
