@@ -6,8 +6,8 @@ body{
 
 button{
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 75px;
     color: blue;
     padding-top: 5px;
     background-color: grey;
@@ -18,14 +18,14 @@ div:hover{
     border: 4px dotted lightslategray;
 }
 .gul{
-    border-left: yellow;
+    border-left: ridge style yellow 8px ridge;
 }
 .rod{
-    border-left: red;
+    border-left: red 8px ridge;
 }
 .gron{
-    border-left: green;
+    border-left: green 8px ridge;
 }
-bla{
-    border-left: blue;
+.bla{
+    border-left: blue 8px ridge;
 }
