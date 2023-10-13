@@ -2,4 +2,6 @@ body{
     width: 200px;
     font-family: 'Courier New', Courier, monospace;
     background-color: cornflowerblue;
+    border-top: yellowgreen 8px ridge;
+
 }   
