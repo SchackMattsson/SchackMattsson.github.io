@@ -9,7 +9,7 @@ div{
     margin: 10px;
     padding: 10px;
     box-shadow: black 5px 5px;
-    height: 300px;
+    height: 350px;
 }
 a:hover{
     color: #E1B96F;
@@ -17,7 +17,6 @@ a:hover{
 }
 a{
     width: 140px;
-    padding: 4px;
     height: 30px;
     border-radius: 15px;
     border: 2px dotted grey;
