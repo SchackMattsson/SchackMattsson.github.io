@@ -4,10 +4,11 @@ body{
 }
 div{
     float: left;
+    background-color: rgb(255, 193, 77);;
     width: 150px;
     margin: 10px;
     padding: 10px;
-    box-shadow: #ad8f57 5px 5px;
+    box-shadow: black 5px 5px;
     height: 300px;
 }
 a:hover{
@@ -19,6 +20,6 @@ a{
     height: 25px;
     border-radius: 15px;
     border: 2px dotted grey;
-    margin: 2px;
+    margin: 5px;
     text-align: center;
 }
