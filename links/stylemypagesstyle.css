@@ -20,7 +20,8 @@ a{
     height: 30px;
     border-radius: 15px;
     border: 2px dotted grey;
-    margin: 5px;
+    margin: 3px;
     text-align: center;
     display: block;
+    text-align: center;
 }
