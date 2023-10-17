@@ -6,4 +6,7 @@ div{
     float: left;
     width: 100px;
 }
-button:
+button:hover{
+    color: E1B96F;
+    background-color: black;
+}
