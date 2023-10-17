@@ -8,6 +8,10 @@ div{
     margin: 30px;
 }
 button:hover{
-    color: E1B96F;
+    color: #E1B96F;
     background-color: black;
+}
+button{
+    background-color: #E1B96F;
+    color: black;
 }
