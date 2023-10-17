@@ -5,6 +5,7 @@ body{
 div{
     float: left;
     width: 100px;
+    margin: 30px;
 }
 button:hover{
     color: E1B96F;
