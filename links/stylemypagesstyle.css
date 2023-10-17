@@ -8,7 +8,7 @@ div{
     margin: 30px;
     box-shadow: 3px 3px;
 }
-button:hover{
+a:hover{
     color: #E1B96F;
     background-color: black;
 }
