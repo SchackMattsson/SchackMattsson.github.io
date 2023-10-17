@@ -4,9 +4,10 @@ body{
 }
 div{
     float: left;
-    width: 100px;
+    width: 130px;
     margin: 30px;
-    box-shadow: 3px 3px;
+    box-shadow: #ad8f57 3px 3px;
+    height: 200px;
 }
 a:hover{
     color: #E1B96F;
@@ -17,5 +18,5 @@ a{
     color: black;
     border-radius: 8px;
     margin: 5px;
-    border: black 2px 2px;
+    border: #ad8f57;
 }
