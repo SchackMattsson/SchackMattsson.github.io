@@ -4,19 +4,21 @@ body{
 }
 div{
     float: left;
-    width: 130px;
-    margin: 30px;
-    box-shadow: #ad8f57 3px 3px;
-    height: 200px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: #ad8f57 5px 5px;
+    height: 300px;
 }
 a:hover{
     color: #E1B96F;
     background-color: black;
 }
 a{
-    background-color: #E1B96F;
-    color: #ad8f57;
-    border-radius: 8px;
-    margin: 5px;
-    border: #ad8f57;
+    width: 140px;
+    height: 25px;
+    border-radius: 15px;
+    border: 2px dotted grey;
+    margin: 2px;
+    text-align: center;
 }
