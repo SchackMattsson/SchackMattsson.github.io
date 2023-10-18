@@ -1,0 +1,9 @@
+img{
+    width: 200px;
+    height: 195px;
+    margin: 10px;
+    float: left;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+    
+}
