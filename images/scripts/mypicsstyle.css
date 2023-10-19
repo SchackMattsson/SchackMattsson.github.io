@@ -5,6 +5,8 @@ img{
     float: none;
     box-shadow: 1px 1px black;
     padding: 5px;
+    text-align: center;
+    
 }
 div{
     float: left;
