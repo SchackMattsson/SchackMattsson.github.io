@@ -4,12 +4,13 @@ img{
     margin: 10px;
     float: none;
     padding: 5px;
-    
-
 }
 div{
     float: left;
     margin: 5px;
     background-color: gold;
     text-align: center;
+}
+body{
+    background-color: goldenrod;
 }
