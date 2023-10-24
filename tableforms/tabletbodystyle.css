@@ -7,7 +7,10 @@ table{
     color: red;
 }
 th{
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 5px 10px;
     text-align: center;
+}
+thead{
+    color: red;
 }
