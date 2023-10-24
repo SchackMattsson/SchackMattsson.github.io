@@ -1,12 +1,13 @@
 table{
     box-shadow: 5px 5px rgb(2, 33, 58);
-    border: 3px;
-    border-color: blue;
+    border: 3px solid blue;
+    border-collapse: collapse;
 }
 .red{
     color: red;
 }
 th{
-    border: black;
+    border: 3px solid black;
     padding: 5px 10px;
+    text-align: center;
 }
