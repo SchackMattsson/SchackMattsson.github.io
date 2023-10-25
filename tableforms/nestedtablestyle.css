@@ -5,6 +5,7 @@ table{
     border: 2px solid blue;
     border-collapse: collapse;
     text-align: center;
+    
 }
 .red{
     color: red;
@@ -22,4 +23,7 @@ tfoot{
 }
 .purple{
     color: purple;
+}
+.bs{
+    box-shadow: 5px 5px black;
 }
