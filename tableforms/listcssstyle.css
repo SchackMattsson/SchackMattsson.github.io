@@ -13,3 +13,10 @@ ul{
 .square{
     list-style-type: square;
 }
+.ol,.ul{
+    border: 2px solid purple;
+}
+.bc{
+    background-color: white;
+    color: rgb(71, 52, 52);
+}
