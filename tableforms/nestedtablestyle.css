@@ -2,15 +2,21 @@
     color: red;
 }
 table{
-    box-shadow: 5px 5px rgb(2, 33, 58);
-    border: 3px solid blue;
+    border: 2px solid blue;
     border-collapse: collapse;
+    text-align: center;
 }
 .red{
     color: red;
 }
 th{
-    border: 1px solid black;
     padding: 5px 10px;
     text-align: center;
+}
+td,th{
+    border: 1px solid green;
+    padding: 5px 10px;
+}
+tfoot{
+    border: lightgreen solid 2px;
 }
