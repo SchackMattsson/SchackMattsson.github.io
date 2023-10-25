@@ -1,0 +1,16 @@
+.red{
+    color: red;
+}
+table{
+    box-shadow: 5px 5px rgb(2, 33, 58);
+    border: 3px solid blue;
+    border-collapse: collapse;
+}
+.red{
+    color: red;
+}
+th{
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
