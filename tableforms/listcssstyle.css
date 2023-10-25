@@ -1,0 +1,15 @@
+.roman{
+    list-style-type: lower-roman;
+}
+body{
+    background-color: lightgreen;
+}
+.none{
+    list-style-type: none;
+}
+ul{
+    border: 2px solid blue; 
+}
+.square{
+    list-style-type: square;
+}
