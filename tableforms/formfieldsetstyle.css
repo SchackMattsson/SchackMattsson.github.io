@@ -8,3 +8,7 @@ fieldset{
     border: 2px black solid;
     width: 500px;
 }
+legend{
+    color: purple;
+    background-color: lightsalmon;
+}
