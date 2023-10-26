@@ -2,7 +2,7 @@ body{
     background-color: lightgreen;
     color: blue;
 }
-label{
+*{
     margin: 5px;
     padding: 5px;
     
