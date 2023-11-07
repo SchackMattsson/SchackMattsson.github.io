@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mosare</title>
 </head>
+
 <body>
+    <h1 style="background-color: lightblue;"><a href="https://www.aftonbladet.se/">Aftonbladet</a></h1>
    <script>
     window.onload= function() {
   alert("webbsidan är laddat ");
-  
 }
 window.onbeforeunload = function (event) {
-  event.preventDefault();
+  alert("Den här sidan vill att du brekäftar att du vill lämna sidan");
     return (event.ReturnValue == "");
 }
-
    </script>
 </body>
 </html>
