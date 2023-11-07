@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="football">ask</button>
+    <button onclick="question('ftball')">ask</button>
     <script type="text/javascript">
         function question(football){
             //Detta script gör så att en ruta med en OK- och en Cancel-knapp dyker upp. 
             if (confirm("Är du en fotbollsspelare?\n OK = Ja!; Cancel = Nej!"))
             {
-                alert("Det gäller mig.");
+                alert("Ja, Det gäller mig." +football);
             }
             else
             {
