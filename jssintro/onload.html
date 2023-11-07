@@ -12,11 +12,9 @@
     window.onload= function() {
   alert("webbsidan är laddat ");
 }
-window.onbeforeunload = function (event) {
+    window.onbeforeunload = function (event) {
   alert("Den här sidan vill att du brekäftar att du vill lämna sidan");
-}
-window.onunload = function (event) {
-  alert("Den här sidan vill att du brekäftar att du vill lämna sidan");
+    return (event.ReturnValue == "");
 }
    </script>
 </body>
