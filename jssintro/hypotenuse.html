@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body><!--<input type=”submit” onclick=”return funktionens_namn()”
+<body>
+<!--<input type=”submit” onclick=”return funktionens_namn()”
 eller med formuläret <form …onSubmit=”return funktionens_namn”>. 
 Function kan bli nästlade i en annan funktion dvs. anropas av en annan funktion.-->
     <script>
@@ -13,7 +14,6 @@ Function kan bli nästlade i en annan funktion dvs. anropas av en annan funktion
 function hypotenuse(a, b) {
 function square(x) { return x*x; }
 return Math.sqrt(square(a) + square(b));
-
 }
 document.write("Hypotenusan: "+hypotenuse(2,3))
 </script>
