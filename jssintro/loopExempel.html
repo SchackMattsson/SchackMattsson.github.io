@@ -7,8 +7,8 @@
 </head>
 <body>
     <button onclick="testfor(20,'asada')">Testknapp</button>
-    <button onclick="testfor(10,'jag')">Testknapp</button>
-    <button onclick="testwhile()">Testknapp</button>
+    <button onclick="testfor(10,i)">Testknapp 2</button>
+    <button onclick="testwhile()">Testknapp 3</button>
     <script>
         function testfor(toNumber,skriva){
             for(var i=0;i <toNumber;i++ )
@@ -18,11 +18,11 @@
         }
         function testwhile()
         {
-            i=0;
+            var i=0;
             while (i<5)
             {
                 document.writeln("hi olle");
-                i++;
+                i=i+1;
 
             }
         }
