@@ -6,13 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="testfor(20)">Testknapp</button>
+    <button onclick="testfor(20,'asada')">Testknapp</button>
+    <button onclick="testfor(10,'jag')">Testknapp</button>
     <button onclick="testwhile()">Testknapp</button>
     <script>
-        function testfor(toNumber){
+        function testfor(toNumber,skriva){
             for(var i=0;i <toNumber;i++ )
             {
-	            document.writeln("hi olle");
+	            document.writeln(skriva);
             }
         }
         function testwhile()
