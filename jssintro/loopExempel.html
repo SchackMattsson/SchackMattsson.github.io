@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kul.</title>
+    <title>Document</title>
 </head>
 <body>
+    <button onclick="testfor()">Testknapp</button>
+    <button onclick="testwhile()">Testknapp</button>
     <script>
-        for(initialisering;villkor;förändring )
-{
-	satser
-}
-Ekvivalent while loop
-initialisering
-while (villkor)
-{
-	satser
-	förändring
-}
+        function testfor(){
+            for(var i=0;i <5;i++ )
+            {
+	            document.writeln("hi olle");
+            }
+        }
+        function testwhile()
+        {
+            i=0;
+            while (i<5)
+            {
+                document.writeln("hi olle");
+                i++;
+
+            }
+        }
 
     </script>
 </body>
