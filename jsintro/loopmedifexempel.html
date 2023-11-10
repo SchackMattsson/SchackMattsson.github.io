@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IfSaker</title>
 </head>
+
 <body>
- <input type="number" id="number1">
- <input type="number" id="number2">
+    <label for="number1">Nummer 1</label>
+    <input type="number" id="number1">
+    <div id="response"></div>
+
+    <script>
+        const numberEl = document.getElementById("number1");
+        const response = document.getElementById('response');
+
+        numberEl.addEventListener("change", () => {
+            const numberVal = document.getElementById("number1").value;
+            if (numberVal > 0) {
+                let sum = 0;
+                for(let i=Number(numberVal); i>0; i-- ){
+                    sum += i
+                
+                }
+                let sum2 = 0
+                let n=Number(numberVal)
+                while(n>0){
+                sum2 += n;
+                n--
+                }
+                response.textContent = sum
+                response.textContent = sum2
+
+            } else {
+                response.textContent = "Error Number>0"
+            }
+        })
+
+    </script>
 </body>
+
 </html>
