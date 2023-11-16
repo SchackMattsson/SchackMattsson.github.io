@@ -28,8 +28,7 @@ cities.forEach(printCity);
 // Använder pop, shift, splice och delete på en kopia av arrayen
 var modifiedCities = cities.slice(); // Skapar en kopia av arrayen
 
-
-pop(); // Tar bort det sista elementet i kopian
+modifiedCities.pop(); // Tar bort det sista elementet i kopian
 document.write("<br>Utskrift efter pop i kopian:<br>");
 modifiedCities.forEach(printCity);
 
