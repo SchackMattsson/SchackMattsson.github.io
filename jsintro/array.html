@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <script>
+// Skapar en array med city-namn
+var cities = ["Dubai", "Paris", "Mumbai", "Dallas", "Houston", "Madrid"];
+
+// Lägger till 3 element med push och prompt
+for (var i = 0; i < 3; i++) {
+  var city = prompt("Skriv in en stad:", "Standardtext");
+  cities.push(city);
+}
+
+// Skapar en utskriftsfunktion för forEach
+function printCity(element, index) {
+  document.write("Stad vid index " + index + ": " + element + "<br>");
+}
+
+// Använder forEach för att skriva ut alla element i ursprungliga arrayen
+document.write("Alla element i ursprungliga arrayen:<br>");
+cities.forEach(printCity);
+
+// Använder pop, shift, splice och delete på en kopia av arrayen
+var modifiedCities = cities.slice(); // Skapar en kopia av arrayen
+
+
+pop(); // Tar bort det sista elementet i kopian
+document.write("<br>Utskrift efter pop i kopian:<br>");
+modifiedCities.forEach(printCity);
+
+modifiedCities.shift(); // Tar bort det första elementet i kopian
+document.write("<br>Utskrift efter shift i kopian:<br>");
+modifiedCities.forEach(printCity);
+
+modifiedCities.splice(2, 0, "Stockholm"); // Lägger till Stockholm på tredje plats i kopian
+document.write("<br>Utskrift efter splice i kopian:<br>");
+modifiedCities.forEach(printCity);
+
+delete modifiedCities[2]; // Tar bort det tredje elementet i kopian
+document.write("<br>Utskrift efter delete i kopian:<br>");
+modifiedCities.forEach(printCity);
+
+// Skriver ut totala antalet element i ursprungliga arrayen
+document.write("<br>Totalt antal element i ursprungliga arrayen: " + cities.length);
+
+// Hittar positionen för Dallas i ursprungliga arrayen
+document.write("<br>Position för Dallas i ursprungliga arrayen: " + cities.indexOf("Dallas"));
+
+// Ändrar arrayens längd till 1 i kopian
+modifiedCities.length = 1;
+document.write("<br>Totalt antal element efter längdändring i kopian: " + modifiedCities.length);
+
+    </script>
+</head>
+<body>
+    <!-- Tom body, all kod är i head-sektionen -->
+</body>
+</html>
