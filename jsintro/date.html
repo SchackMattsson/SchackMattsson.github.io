@@ -11,34 +11,33 @@
             let currentYear = todayDate.getFullYear();
             let specificDate = new Date("August 30, " + currentYear);
 
-            document.write("<p>Andra datumet: " + specificDate + "</p>");
+            document.write("Andra datumet: " + specificDate +"<br>");
 
             let todaySeconds = todayDate.getSeconds();
             let todayMinutes = todayDate.getMinutes();
             let todayHours = todayDate.getHours();
             let todayDay = todayDate.getDay();
             let todayMonth = todayDate.getMonth();
-            let todayYear = todayDate.getYear();
 
-            document.write("Sekunder:" + todaySeconds)
-            document.write("Minuter:" + todayMinutes)
-            document.write("Timmar:" + todayHours)
-            document.write("Dagar:" + todayDay)
-            document.write("Månader:" + todayMonth)
-            document.write("År:" + todayYear)
-            document.write("Tid" + ": " + todayHours + ":" + todayMinutes +":" + todaySeconds)
+            document.write("Sekunder:" + todaySeconds +"<br>")
+            document.write("Minuter:" + todayMinutes +"<br>")
+            document.write("Timmar:" + todayHours +"<br>")
+            document.write("Dagar:" + todayDay +"<br>")
+            document.write("Månader:" + todayMonth +"<br>")
+            document.write("År:" + currentYear +"<br>")
+            document.write("Tid" + ": " + todayHours + ":" + todayMinutes +":" + todaySeconds +"<br>")
             
             let endOfYearDate = new Date("December 31, " + currentYear);
             let daysToNewYear = Math.floor((endOfYearDate - todayDate) / (1000 * 60 * 60 * 24));
 
-            document.write("<p>Antal dagar till nytt år: " + daysToNewYear + "</p>");
+            document.write("Antal dagar till nytt år: " + daysToNewYear +"<br>");
         }
     </script>
 </head>
 <body>
 <h1>Datum operationer</h1>
 <script>
-    dateOperations();
+dateOperations();
 </script>
 </body>
 </html>
