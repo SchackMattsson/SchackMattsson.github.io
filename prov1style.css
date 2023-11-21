@@ -2,7 +2,7 @@ thead{
     color: red;
 }
 body{
-    background-color: lightgreen;
+    background-color: #accb34;
 }
 table{
     border: 2px solid blue;
@@ -19,4 +19,13 @@ th{
 }
 td{
     box-shadow: 1px -1px green;
+}
+tfoot{
+    color: green;
+}
+.blacktext{
+    color: black;
+}
+div{
+    float: left;
 }
