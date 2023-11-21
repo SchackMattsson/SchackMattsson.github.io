@@ -5,12 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProvDelEtt</title>
     <link rel="stylesheet" href="prov1style.css">
+    <style>
+    thead{
+    color: red;
+}
+table{
+    border: 2px solid blue;
+    
+}
+.left{
+    float: left;
+}
+legend{
+    background-color: lightgreen;
+    color: blue;
+}
+th{
+    box-shadow: 1px 0px green;
+}
+td{
+    box-shadow: 1px -1px green;
+}
+tfoot{
+    color: green;
+}
+.blacktext{
+    color: black;
+}
+div{
+    float: left; 
+    padding: 100px;
+}
+body{
+    background-color: #c3e989;
+}
+form{
+
+}
+caption{
+    font-style: italic;
+}
+
+    </style>
 </head>
 <body>
-    <div class="left">
+    <div>
+<h1>Formula 1</h1>
+
     <table>
-        <h1>Formula 1</h1>
-    <thead>
+<caption>2023 driver standings</caption>
+    <thead> 
+       
         <tr>
             <th>Pos</th>
             <th>Driver</th>
@@ -70,21 +115,23 @@
         </tr>
     </tfoot>
     </table>
+    </div>
+    <div>
     <form>
         <fieldset>
             <legend>Name of driver</legend>
-            <label for="Username">First name:*</label>
+            <label for="name">First name:*</label>
             <input type="text" name="Username" required><br>
-            <label for="Username">Last Name:*</label>
-            <input type="text" name="Username">
+            <label for="name">Last Name:*</label>
+            <input type="text" name="Username" required>
         </fieldset>
         <fieldset>
             <legend>Car*</legend>
             <label>Red Bull
-                    <input type="radio" value="Car"><br>
+                    <input type="radio" value="Car" ><br>
             </label>
             <label>Mercedes
-                    <input type="radio" value="Car">
+                    <input type="radio" value="Car"><br>
             </label>
             <label>Ferrari
                     <input type="radio" value="Car"><br>
@@ -101,7 +148,10 @@
         <option value="GBR">GBR</option>
         <option value="MEX">MEX</option>
         <option value="ESP">ESP</option>
+        </select>
     </fieldset>
+        <input type="submit" value="Send!">
+
     </form>
     </div>
 </body>

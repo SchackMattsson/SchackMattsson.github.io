@@ -1,9 +1,6 @@
 thead{
     color: red;
 }
-body{
-    background-color: #accb34;
-}
 table{
     border: 2px solid blue;
 
@@ -15,7 +12,7 @@ legend{
     color: greenyellow;
 }
 th{
-    box-shadow: 1px green;
+    box-shadow: 1px 0px green;
 }
 td{
     box-shadow: 1px -1px green;
@@ -28,4 +25,5 @@ tfoot{
 }
 div{
     float: left;
+    background-color: #accb34;  
 }
