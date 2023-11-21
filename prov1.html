@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProvDelEtt</title>
+    <link rel="stylesheet" href="prov1style.css">
+</head>
+<body>
+    <div class="left">
+    <table>
+        <h1>Formula 1</h1>
+    <thead>
+        <tr>
+            <th>Pos</th>
+            <th>Driver</th>
+            <th>Nationality</th>
+            <th>Car</th>
+            <th>PTS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Verstappen</td>
+            <td>NED</td>
+            <td>Red Bull</td>
+            <td>549</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Perez</td>
+            <td>MEX</td>
+            <td>Red Bull</td>
+            <td>273</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Hamilton</td>
+            <td>GBR</td>
+            <td>Mercedes</td>
+            <td>232</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sainz</td>
+            <td>ESP</td>
+            <td>Ferrari</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Alonso</td>
+            <td>ESP</td>
+            <td>Aston Martin</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Norris</td>
+            <td>GBR</td>
+            <td>McLaren</td>
+            <td>195</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Total 6 drivers</td>
+            <td>Total:1649</td>
+        </tr>
+    </tfoot>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Name of driver</legend>
+            <label for="Username">First name:*</label>
+            <input type="text" name="Username" required><br>
+            <label for="Username">Last Name:*</label>
+            <input type="text" name="Username">
+        </fieldset>
+        <fieldset>
+            <legend>Car*</legend>
+            <label>Red Bull
+                    <input type="radio" value="Car" checked><br>
+            </label>
+            <label>Mercedes
+                    <input type="radio" value="Car" checked>
+            </label>
+            <label>Ferrari
+                    <input type="radio" value="Car" checked><br>
+            </label>
+            <label>Aston Martin
+                    <input type="radio" value="Car" checked>
+            </label>
+        </fieldset>
+    <fieldset>
+        <legend>Nationality</legend>
+        <label for="Nationality">Choose a nationality</label>
+        <select name="nationality" id="nationality">
+        <option value="NED">NED</option>
+        <option value="GBR">GBR</option>
+        <option value="MEX">MEX</option>
+        <option value="ESP">ESP</option>
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+thead{
+    color: red;
+}
+body{
+    background-color: lightgreen;
+}
+table{
+    border: 2px solid blue;
+
+}
+.left{
+    float: left;
+}
+legend{
+    color: greenyellow;
+}
+th{
+    box-shadow: 1px green;
+}
+td{
+    box-shadow: 1px -1px green;
+}
