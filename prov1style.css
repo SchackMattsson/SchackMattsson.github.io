@@ -3,13 +3,13 @@ thead{
 }
 table{
     border: 2px solid blue;
-
 }
-.left{
-    float: left;
+.center{
+    text-align: center;
 }
 legend{
-    color: greenyellow;
+    background-color: lightgreen;
+    color: blue;
 }
 th{
     box-shadow: 1px 0px green;
@@ -24,6 +24,24 @@ tfoot{
     color: black;
 }
 div{
-    float: left;
-    background-color: #accb34;  
+    float: left; 
+    padding: 100px;
+}
+body{
+    background-color: #c3e989;
+}
+form{
+    padding: 10px;
+    margin: 10px;
+}
+caption{
+    font-style: italic;
+}
+fieldset{
+    padding: 10px;
+    margin: 10px;
+}
+label{
+    padding: 10px;
+    margin: 10px;
 }
