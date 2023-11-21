@@ -25,15 +25,16 @@
     }
 
     function resetBackgroundColor() {
-      document.getElementById("b").style.backgroundColor = "#ff6666"; // Återställ till default färg
+      document.getElementById("b").style.backgroundColor = "#ff6666"; // Återställ till först färg
     }
   </script>
 </head>
 <body id="b">
   <form name="colorForm">
-    <input type="radio" name="name_radioGrupp" value="#ff0000"> Röd
-    <input type="radio" name="name_radioGrupp" value="#00ff00"> Grön
-    <input type="radio" name="name_radioGrupp" value="#0000ff"> Blå
+    <input type="radio" name="name_radioGrupp" value="#ff0000"> Röd <br>
+    <input type="radio" name="name_radioGrupp" value="#00ff00"> Grön <br>
+    <input type="radio" name="name_radioGrupp" value="#0000ff"> Blå <br>
+    <input type="radio" name="name_radioGrupp" value="#00f1f1"> Nästan grönblå <br>
     <br>
     <button type="button" onclick="changeBackgroundColor(this.form)">Välj färg</button>
     <button type="button" onclick="resetBackgroundColor()">Återställ</button>
