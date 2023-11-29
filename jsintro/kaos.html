@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Creating the cities array
+var cities = ["Dubai", "Paris", "Mumbai", "Dallas", "Houston", "Madrid"];
+
+// Adding 3 elements with push and prompts
+for (var i = 0; i < 3; i++) {
+    var city = prompt("Enter a city:", "default text");
+    cities.push(city);
+}
+
+// Printing all elements using forEach
+function printCity(element, index) {
+    document.write("Index " + index + ": " + element + "<br>");
+}
+cities.forEach(printCity);
+
+// Using pop, shift, splice, and delete
+cities.pop();
+cities.shift();
+cities.splice(2, 0, "Stockholm");
+delete cities[2];
+
+// Printing after each step
+document.write("<br>After pop, shift, splice, and delete:<br>");
+cities.forEach(printCity);
+
+// Printing total elements, position of Dallas, and the first element
+document.write("<br>Total elements: " + cities.length);
+document.write("<br>Position of Dallas: " + cities.indexOf("Dallas"));
+document.write("<br>First element: " + cities[0]);
+
+// Changing array length and printing total elements
+cities.length = 1;
+document.write("<br>After changing length: " + cities.length);
+
+    </script>
+</body>
+</html>
