@@ -20,6 +20,7 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
+            /*KANSKE TAS BORT*/
         }
         li{
             border: 5px 5px lightgreen;
@@ -29,7 +30,66 @@
             display: flex;
             flex-direction: row;
             list-style-type: none;
+
         }
+        button:hover{
+            color: black;
+            background-color: white;
+            border: white solid 5px;
+        }
+        button{
+            color: white;
+            background-color: black;
+            border: black solid 5px;
+            border-radius: 30px;
+        }
+        div{
+            padding: 15px;
+            margin: 5px;
+            float: left;
+            
+        }
+        .four{
+            width: 1000;
+            height: 50;
+            background-color: rgb(221, 221, 221);
+            box-shadow: 4px 4px rgb(5 , 221, 113);
+            padding: 15px;
+            margin: 5px;
+            
+        }
+        .sak{
+            width: 1000px;
+            height: 250px;
+            background-color: rgb(221, 221, 221);
+            box-shadow: 4px 4px rgb(5 , 221, 113);
+            padding: 15px;
+            margin: 5px;
+        }
+        .boxar{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(221, 221, 221);            
+            box-shadow: 4px 4px rgb(5 , 221, 113);
+            padding: 15px;
+            margin: 5px;
+        }
+        li{
+            float: left;
+        }
+        .fraga{
+            height: 250px;
+            width: 150px;
+            background-color: rgb(221, 221, 221);            
+            box-shadow: 4px 4px rgb(5 , 221, 113);
+            padding: 15px;
+            margin: 5px;
+        }
+        .class{
+            float: left;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -37,18 +97,18 @@
         <div class="header">
             <div>
                 <ul>
-                    <li><a>HOME</a></li>
+                    <li class="four"><a>HOME</a></li>
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li><a>ABOUT</a></li>
-                    <li><a>SERVICES</a></li>
-                    <li><a>CONTACT</a></li>
+                    <li class="four"><a>ABOUT</a></li>
+                    <li class="four"><a>SERVICES</a></li>
+                    <li class="four"><a>CONTACT</a></li>
                 </ul>
             </div>
         </div>
-        <div class="body">
+        <div class="sak">
             <div>
                 <img src="pic1.jpg" alt="lampa">
             </div>
@@ -59,29 +119,30 @@
             </div>
         </div>
         <div class="footer">
-            <div>
+            <div class="boxar">
                 <ion-icon name="bar-chart-outline" style="color: blue;"></ion-icon>
                 <h1>Analytics</h1>
                 <p>Lorem ipsum, consectetur elit.</p>
             </div>
-            <div>
+            <div class="boxar">
                 <ion-icon name="megaphone-outline"></ion-icon>
                 <h1>Marketing</h1>
                 <p>Lorem ipsum, consectetur elit.</p>
             </div>
-            <div>
+            <div class="boxar">
                 <ion-icon name="layers-outline" style="color: red;"></ion-icon>
                 <h1>Development</h1>
                 <p>Lorem ipsum, consectetur elit.</p>
             </div>
-            <div>
+            <div class="boxar">
                 <ion-icon name="people-outline" style="color: rgb(104, 255, 104);"></ion-icon>
                 <h1>Support</h1>
                 <p>Lorem ipsum, consectetur elit.</p>
             </div>
         </div>
+        <div class="left">
         <div class="forms">
-            <form>
+            <form class="fraga">
                 <fieldset>
                     <legend>Gender*</legend>
                     <label class="blue" for="male">Male
@@ -95,7 +156,7 @@
         </div>
         <div class="forms">
             <form>
-                <fieldset>
+                <fieldset class="fraga">
                     <legend>Programming Skill</legend>
                     <label class="blue">Java
                         <input type="checkbox" value="Java"><br>
@@ -110,6 +171,7 @@
                 <input type="submit" value="Send">
             </form>
         </div>
+    </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
