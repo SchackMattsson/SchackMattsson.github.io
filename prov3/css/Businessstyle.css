@@ -17,7 +17,7 @@ ul{
     text-align: center;
     padding: 10px;
 }
-a{
+.sida{
     box-shadow: 4px 4px rgb(221, 40, 112);
     background-color: rgb(221, 221, 221);
     padding: 10px;
@@ -59,7 +59,7 @@ legend{
         display: none;
     }
 }
-@media screen and (max-width: 650px):{
+@media screen and (max-width: 650px) {
     .forms{
         display:none;
     }
