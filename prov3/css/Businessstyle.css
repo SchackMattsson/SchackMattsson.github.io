@@ -30,3 +30,9 @@ a{
     flex: 3;
     margin-left: 5%;
 }
+button{
+    background-color: black;
+    color: rgb(221, 221, 221);
+    border: black 3px solid;
+    border-radius: 3px;
+}
