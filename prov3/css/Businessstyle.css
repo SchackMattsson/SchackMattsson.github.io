@@ -31,8 +31,21 @@ a{
     margin-left: 5%;
 }
 button{
+    color: white;
     background-color: black;
-    color: rgb(221, 221, 221);
-    border: black 3px solid;
-    border-radius: 3px;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 5px;
+}
+.forms{
+    display: flex;
+    align-self: center;
+}
+form{
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(0, 0, 255);
+    box-shadow: 3px 3px rgb(0, 143, 71);
 }
