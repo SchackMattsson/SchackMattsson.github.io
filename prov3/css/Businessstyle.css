@@ -17,7 +17,7 @@ ul{
     text-align: center;
     padding: 10px;
 }
-li{
+a{
     box-shadow: 4px 4px rgb(221, 40, 112);
     background-color: rgb(221, 221, 221);
 }
