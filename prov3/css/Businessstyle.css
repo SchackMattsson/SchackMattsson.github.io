@@ -21,16 +21,9 @@ a{
     box-shadow: 4px 4px rgb(221, 40, 112);
     background-color: rgb(221, 221, 221);
     padding: 10px;
-}
-.a{
-    flex: 1; 
-    margin-right: 5%;
+    margin: 40px;
 }
 
-.b{
-    flex: 3;
-    margin-left: 5%;
-}
 button{
     color: white;
     background-color: black;
@@ -60,4 +53,17 @@ form{
 }
 legend{
     background-color: rgb(144, 238, 144);
+}
+@media screen and (max-width: 1200px) and (min-width: 650px) {
+    .forms{
+        display: none;
+    }
+}
+@media screen and (max-width: 650px):{
+    .forms{
+        display:none;
+    }
+    .moreinfo{
+        display: none;
+    }
 }
