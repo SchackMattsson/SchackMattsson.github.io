@@ -77,4 +77,7 @@ legend{
         display: none;
     }
 }
+.info:hover{
+    background-color: yellow;
+}
 
