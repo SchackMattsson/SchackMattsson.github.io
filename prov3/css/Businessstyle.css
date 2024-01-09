@@ -8,3 +8,6 @@ ul{
     display: flex;
     flex-direction: column;
 }
+.left{
+    float: left;
+}
