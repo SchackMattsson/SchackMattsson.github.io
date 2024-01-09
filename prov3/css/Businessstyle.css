@@ -6,7 +6,6 @@ ul{
 }
 .all{
     display: flex;
-    flex-direction: column;
 }
 div{
     margin: 10px;
