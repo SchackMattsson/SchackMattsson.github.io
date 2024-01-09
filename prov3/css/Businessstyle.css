@@ -20,6 +20,7 @@ ul{
 a{
     box-shadow: 4px 4px rgb(221, 40, 112);
     background-color: rgb(221, 221, 221);
+    padding: 10px;
 }
 .a{
     flex: 1; 
@@ -52,4 +53,11 @@ form{
 .info{
     background-color: rgb(221, 221, 221);
     box-shadow: red 2px 2px solid;
+}
+.moreinfo{
+    background-color: rgb(221, 221, 221);
+    box-shadow: blue 2px 2px solid;
+}
+legend{
+    background-color: rgb(144, 238, 144);
 }
