@@ -49,3 +49,7 @@ form{
     color: rgb(0, 0, 255);
     box-shadow: 3px 3px rgb(11, 154, 65);
 }
+.info{
+    background-color: rgb(221, 221, 221);
+    box-shadow: red 2px 2px solid;
+}
