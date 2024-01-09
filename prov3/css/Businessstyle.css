@@ -11,3 +11,22 @@ ul{
 .left{
     float: left;
 }
+.body{
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    padding: 10px;
+}
+li{
+    box-shadow: 4px 4px rgb(221, 40, 112);
+    background-color: rgb(221, 221, 221);
+}
+.a{
+    flex: 1; 
+    margin-right: 5%;
+}
+
+.b{
+    flex: 3;
+    margin-left: 5%;
+}
